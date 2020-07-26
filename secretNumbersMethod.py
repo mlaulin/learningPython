@@ -59,7 +59,7 @@ def run_magic_loop():
         if (choice == 3):
             magic_list = group_1 + group_3 + group_2
         
-        print(magic_list) # For troubleshooting purposes
+        # print(magic_list) # For troubleshooting purposes
         
     return magic_list[10] #11th position in the list
     
