@@ -61,8 +61,8 @@ def run_magic_loop():
         
         print(magic_list) # For troubleshooting purposes
         
-    secret_num = magic_list[10] #11th position in the list
-    print("Your secret number is: {} ".format(secret_num))
-
-run_magic_loop()
+    return magic_list[10] #11th position in the list
+    
+secret_num = run_magic_loop()
+print("Your secret number is: {} ".format(secret_num))
 
