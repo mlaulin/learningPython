@@ -38,3 +38,5 @@ if i == 2:
     v = c2f()
     v = round(v, 2)
     print("The temperature in Fahrenheit is: {}".format(v))
+
+exit()
