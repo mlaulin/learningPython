@@ -20,15 +20,15 @@ def create_student():
 
     student_data = {
         'Name': student_name,
-        'Subjects Score': {
-            'science': science,
-            'math': math,
-            'sociology': sociology,
-            'language': language,
-            'music': music
+        'Subject Scores': {
+            'Science': science,
+            'Math': math,
+            'Sociology': sociology,
+            'Language': language,
+            'Music': music
         },
-        'Total': student_total,
-        'Average': student_avg
+        'Total Score': student_total,
+        'Average Marks': student_avg
     }
 
     return student_data
