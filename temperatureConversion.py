@@ -10,6 +10,7 @@ Created on Fri Aug  7 19:44:49 2020
 i = int(input("Enter 1 for converting from Fahrenheit to Celsius and  2 for converting from Celsius to Fahrenheit: "))
 
 
+# Method to convert from Fahrenheit to Celsius
 def f2c():
     # Ask for user input in Fahrenheit
     f = float(input("Enter the temperature in Fahrenheit: "))
@@ -20,6 +21,7 @@ def f2c():
     return c
 
 
+# Method to convert from Celsius to Fahrenheit
 def c2f():
     #  Ask for user input in Celsius
     c = float(input("Enter the temperature in Celsius: "))
